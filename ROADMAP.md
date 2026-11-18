@@ -1,39 +1,34 @@
-# Community AI Lab — project roadmap
+# Community AI Lab — roadmap
 
-Two projects, one goal: a useful speech-to-speech demo built with a visible record of accepted contributions. **No app, model, agreement or payment system is live yet.**
+Two repositories. One shared plan. **Nothing is deployed yet.** These tracking issues link the specific tasks and explain what "done" means.
 
-## Platform
+## Milestones
 
-- [ ] [Contributor journey](https://github.com/Community-AI-Lab/platform/issues/1)
-- [ ] [Founding contributor agreement and signing](https://github.com/Community-AI-Lab/platform/issues/2)
-- [ ] [Provisional contribution ledger](https://github.com/Community-AI-Lab/platform/issues/3)
-- [ ] [Contributor dashboard](https://github.com/Community-AI-Lab/platform/issues/4)
-- [ ] [Data/audio submission workflow](https://github.com/Community-AI-Lab/platform/issues/5)
-- [ ] [Opt-in GPU worker](https://github.com/Community-AI-Lab/platform/issues/6)
-- [ ] [Hugging Face inference integration and metering](https://github.com/Community-AI-Lab/platform/issues/7)
-- [ ] [Revenue accounting and smart-contract research](https://github.com/Community-AI-Lab/platform/issues/8)
+1. [People can join and choose work](https://github.com/Community-AI-Lab/platform/issues/9) — contributor journey and founding agreement draft
+2. [Contributions can be submitted and recorded](https://github.com/Community-AI-Lab/platform/issues/10) — ledger, dashboard and data/audio intake
+3. [Working local speech-to-speech demo](https://github.com/Community-AI-Lab/platform/issues/11) — baseline, benchmark, permitted data and local demo
+4. [Community compute and training experiments](https://github.com/Community-AI-Lab/platform/issues/12) — opt-in GPU worker and reproducible experiment
+5. [Hugging Face deployment and usage accounting](https://github.com/Community-AI-Lab/platform/issues/13) — endpoint feasibility, metering and simulated revenue allocations
 
-## Speech-to-speech model
+Every tracker has a checklist of linked tasks across the two repositories. Milestones 2 and 3 can progress in parallel.
 
-- [ ] [Compare baseline models](https://github.com/Community-AI-Lab/speech-to-speech/issues/1)
-- [ ] [Evaluation metrics](https://github.com/Community-AI-Lab/speech-to-speech/issues/2)
-- [ ] [Local demo](https://github.com/Community-AI-Lab/speech-to-speech/issues/3)
-- [ ] [Datasets and audio rights](https://github.com/Community-AI-Lab/speech-to-speech/issues/4)
-- [ ] [Fine-tuning experiments](https://github.com/Community-AI-Lab/speech-to-speech/issues/5)
-- [ ] [Hugging Face endpoint test](https://github.com/Community-AI-Lab/speech-to-speech/issues/6)
+### Repositories
 
-## Suggested order
+- [Platform](https://github.com/Community-AI-Lab/platform): contributor accounts, agreement flow, tasks, data intake, credits, GPU workers and API usage accounting
+- [Speech-to-speech](https://github.com/Community-AI-Lab/speech-to-speech): model research, datasets, training, evaluation and the voice demo
+- **Hosting plan:** evaluate Hugging Face model storage and Inference Endpoints. Test real-time streaming and cost before choosing deployment.
 
-**First:** contributor journey, legal agreement draft, baseline model comparison, evaluation metrics.
+## How to take part
 
-**Then:** provisional ledger, simple dashboard and local audio demo.
+1. Open a milestone and choose a linked issue.
+2. Comment on the issue to claim or discuss it.
+3. Submit a pull request or a research note with evidence.
+4. Ask for review; mark it done only when the acceptance criteria are met.
 
-**Next:** optional GPU worker and audio submission, followed by Hugging Face endpoint tests, authentication and metering.
+There are no named team assignments or agreed deadlines yet. Work can begin without meetings.
 
-**Later:** decide actual credit valuations, revenue-sharing terms and whether smart contracts are justified. No payments or commercial reuse until the required contracts and IP rights are in place.
+## Current limits
 
-GitHub Issues are the working task list. A GitHub Projects board can be added later for views and columns; don't wait for a board to start contributing.
+These are **milestone tracking issues**, not native GitHub Milestone objects or an organisation GitHub Projects board. The official board can be created under the [Community AI Lab organisation](https://github.com/orgs/Community-AI-Lab/projects) and populated with these issues when board-creation access is available.
 
-## Ready / in progress / done
-
-To claim a task, comment on its issue and submit a pull request or documented research result. Only mark an issue done after its acceptance criteria are satisfied. No one is assigned by default.
+Contribution credits are provisional records, not shares or guaranteed royalties. Commercial reuse and payouts require the appropriate contributor agreements, IP permissions and revenue-sharing terms.
