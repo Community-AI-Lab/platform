@@ -35,9 +35,20 @@ flowchart TD
 - **Revenue allocation:** Calculate each eligible contributor's share from their approved project credits and the project's agreed revenue-sharing rules.
 - **Stripe Connect payouts:** Distribute approved payments to eligible contributors when commercial revenue and agreed payment terms are in place.
 
+## Proposed contribution credit system
+
+- Contributors sign in with GitHub and accept the applicable contributor agreement before eligible credits are awarded.
+- Accepted contributions receive **proposed** credit awards tied to a project, evidence of work and a stable contributor ID. A merged PR is evidence, not an automatic award.
+- An authorised reviewer approves the amount and attribution before the credits enter the ledger.
+- The ledger records the project, contributor, evidence, credit amount and approval history. Duplicate events cannot award credits twice; corrections are recorded rather than silently overwriting previous awards.
+- Contributors see their approved credit balances and contribution history on the website.
+- The scoring policy will be agreed and documented by the project. **100 credits for one approved test PR** is an example for the initial demonstration, not a fixed credit rate for all work.
+- The system should also accommodate verified research, data, testing and compute contributions, with suitable evidence and review.
+- Credits have no current monetary value and do not themselves guarantee royalties. Any future revenue entitlement requires separately agreed terms.
+
 ## First deliverable
 
-A merged test PR leads to one approved credit record and a balance visible on the contributor website. Repeated webhook deliveries do not duplicate credits.
+A merged test PR leads to one reviewed and approved credit record and a balance visible on the contributor website. Repeated webhook deliveries do not duplicate credits.
 
 Hosting, inference and customer billing are to be decided by the group.
 
