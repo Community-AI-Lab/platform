@@ -12,19 +12,18 @@ Let people do the actual work in GitHub, acknowledge an approved contributor agr
 
 ```mermaid
 flowchart TD
-  Person["Contributor (existing GitHub account)"] --> Repo["Community AI Lab GitHub repositories<br/>Issues · forks · pull requests · review"]
-  Repo --> Agree["Agreement check / acceptance record<br/>versioned terms; legal approval required"]
-  Repo -- "Merged PR event" --> Hook["GitHub webhook receiver<br/>(or native Actions event as no-server MVP)"]
-  Hook --> Verify["Validate signature and event;<br/>recheck merged PR via GitHub API"]
-  Verify --> Proposal["Create credit award proposal<br/>project · contributor GitHub ID · PR · evidence"]
-  Agree --> Gate{"Agreement valid and<br/>award approved?"}
-  Proposal --> Gate
-  Reviewer["Authorised credit reviewer<br/>approves points and attribution"] --> Gate
-  Gate -- "Yes" --> Ledger["Versioned append-only credit ledger<br/>GitHub repository · award ID · project · PR"]
-  Gate -- "No / pending" --> Hold["Hold; no credits awarded"]
-  Ledger --> Display["Read-only contributor credit website<br/>GitHub Pages; balance and linked evidence"]
-  Person --> Display
-  Ledger --> Future["Future: audited revenue-sharing system<br/>and optional blockchain, only after agreement"]
+  Contributor["Contributor"] --> GitHub["GitHub<br/>Issues & PRs"]
+  GitHub --> Agreement["Agreement check"]
+  GitHub -- "PR merged" --> Webhook["Webhook / Actions"]
+  Webhook --> Verify["Verify PR"]
+  Verify --> Proposal["Credit proposal"]
+  Proposal --> Approval{"Credits approved?"}
+  Agreement --> Approval
+  Reviewer["Reviewer"] --> Approval
+  Approval -- "Yes" --> Ledger["Credit ledger"]
+  Approval -- "No" --> Hold["Pending"]
+  Ledger --> Dashboard["Credit dashboard"]
+  Contributor --> Dashboard
 ```
 
 ## Responsibilities
