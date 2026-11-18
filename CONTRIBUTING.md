@@ -1,13 +1,15 @@
 # How to contribute
 
-Community AI Lab is being built from scratch. You don't need to attend meetings or join a managed team.
+Community AI Lab is starting from zero. We're looking for engineers, researchers, people who know about audio or GPUs, and contributors interested in testing, writing or organising tasks. You don't need to attend meetings.
 
-## Find something to do
+## Where to start
 
-1. Browse [open issues](../../issues).
-2. Comment on an issue before taking it on so others know you're interested. If you have a better approach, propose it.
-3. Work in a branch or fork and submit a pull request. Research findings can go in the issue or a PR with a Markdown note.
-4. Explain what you changed and how it was tested. Someone else should review it against the issue's acceptance criteria.
+1. Open the [Community AI Lab organisation](https://github.com/Community-AI-Lab).
+2. Choose [Contributor Platform](https://github.com/Community-AI-Lab/platform) or [Speech-to-Speech Model](https://github.com/Community-AI-Lab/speech-to-speech).
+3. Find a task in the project's **Issues** tab, or suggest one that should be added.
+4. Comment on the task to say you're interested. Share your code, notes or results in an issue or pull request so someone can review them.
+
+Start with whatever matches your skills. The [roadmap](ROADMAP.md) shows the current goals.
 
 ## Other kinds of contributions
 
