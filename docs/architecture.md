@@ -32,16 +32,14 @@ flowchart TD
 - **Credit ledger:** Record credits per contributor, project and pull request; prevent duplicates and retain corrections.
 - **Contributor website:** Sign in with GitHub to view credit balances, contribution history and, when available, revenue allocations and payment history.
 - **Usage and revenue accounting:** Track income earned by each hosted model and the approved amount available for contributor sharing.
-- **Revenue allocation:** Calculate each eligible contributor's share from their approved project credits and the project's agreed revenue-sharing rules. Reconcile refunds, fees, adjustments and any holds before payouts.
-- **Stripe Connect payouts:** When commercial revenue exists and contracts are in place, let eligible contributors complete Stripe's identity and bank onboarding, then pay approved amounts through supported Stripe Connect flows. Track completed, pending and failed payouts.
+- **Revenue allocation:** Calculate each eligible contributor's share from their approved project credits and the project's agreed revenue-sharing rules.
+- **Stripe Connect payouts:** Distribute approved payments to eligible contributors when commercial revenue and agreed payment terms are in place.
 
-## First deliverables
+## First deliverable
 
-**Contributions:** A merged test PR leads to one approved credit record and a balance visible on the contributor website. Repeated webhook deliveries do not duplicate credits.
+A merged test PR leads to one approved credit record and a balance visible on the contributor website. Repeated webhook deliveries do not duplicate credits.
 
-**Revenue:** Use simulated model revenue and an example agreed share percentage to calculate a contributor allocation. Display the mock result on the website without sending money.
-
-Live payouts require an agreed contributor contract and revenue definition, a responsible paying entity, recipient verification, supported payout countries, tax/compliance handling and funds available to pay. Participation credits alone are not a present promise of payment.
+Hosting, inference and customer billing are to be decided by the group.
 
 ## Implementation issues
 
