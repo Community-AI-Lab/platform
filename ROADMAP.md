@@ -1,16 +1,18 @@
 # Community AI Lab — roadmap
 
-Two repositories. One shared plan. **Nothing is deployed yet.** These tracking issues link the specific tasks and explain what "done" means.
+Two repositories. One shared plan. **Nothing is deployed yet.** Each milestone links to the work and explains what "done" means.
 
 ## Milestones
 
-1. [People can join and choose work](https://github.com/Community-AI-Lab/platform/issues/9) — contributor journey and founding agreement draft
-2. [Contributions can be submitted and recorded](https://github.com/Community-AI-Lab/platform/issues/10) — ledger, dashboard and data/audio intake
-3. [Working local speech-to-speech demo](https://github.com/Community-AI-Lab/platform/issues/11) — baseline, benchmark, permitted data and local demo
-4. [Community compute and training experiments](https://github.com/Community-AI-Lab/platform/issues/12) — opt-in GPU worker and reproducible experiment
-5. [Hugging Face deployment and usage accounting](https://github.com/Community-AI-Lab/platform/issues/13) — endpoint feasibility, metering and simulated revenue allocations
+1. [People can join and choose work](https://github.com/Community-AI-Lab/platform/milestone/1) — contributor journey and founding agreement draft
+2. [Contributions can be submitted and recorded](https://github.com/Community-AI-Lab/platform/milestone/2) — ledger, dashboard and data/audio intake
+3. [Working local speech-to-speech demo](https://github.com/Community-AI-Lab/speech-to-speech/milestone/1) — baseline, benchmark, permitted data and local demo
+4. [Community compute and training experiments](https://github.com/Community-AI-Lab/platform/milestone/3) — opt-in GPU worker and [reproducible experiment](https://github.com/Community-AI-Lab/speech-to-speech/milestone/2)
+5. [Hugging Face deployment and usage accounting](https://github.com/Community-AI-Lab/platform/milestone/4) — [endpoint feasibility](https://github.com/Community-AI-Lab/speech-to-speech/milestone/3), metering and simulated revenue allocations
 
-Every tracker has a checklist of linked tasks across the two repositories. Milestones 2 and 3 can progress in parallel.
+Milestones 2 and 3 can progress in parallel. For phases 4 and 5, the linked milestones track work in each repository.
+
+GitHub Projects groups work by milestone in the [Platform roadmap](https://github.com/orgs/Community-AI-Lab/projects/5/views/4) and [Speech-to-Speech Model roadmap](https://github.com/orgs/Community-AI-Lab/projects/6/views/4).
 
 ### Repositories
 
@@ -27,8 +29,6 @@ Every tracker has a checklist of linked tasks across the two repositories. Miles
 
 There are no named team assignments or agreed deadlines yet. Work can begin without meetings.
 
-## Current limits
-
-These are **milestone tracking issues**, not native GitHub Milestone objects or an organisation GitHub Projects board. The official board can be created under the [Community AI Lab organisation](https://github.com/orgs/Community-AI-Lab/projects) and populated with these issues when board-creation access is available.
+## Contributor credits
 
 Contribution credits are provisional records, not shares or guaranteed royalties. Commercial reuse and payouts require the appropriate contributor agreements, IP permissions and revenue-sharing terms.
