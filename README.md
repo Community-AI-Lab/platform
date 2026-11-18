@@ -19,9 +19,22 @@ We're starting from zero. The aim is a simple place where people can help build 
 
 A contributor selects a task, submits work, gets it approved and sees a recorded credit. A speech model is accessible through a hosted, metered endpoint. Revenue sharing is simulated until the legal terms are finalised.
 
-## Start here
+## How to contribute
 
-Read the [five-milestone roadmap](ROADMAP.md) to see the order of work, or browse [open issues](../../issues) and choose a task. Each issue describes what counts as done. See [CONTRIBUTING.md](CONTRIBUTING.md) before sending work.
+We're inviting people from the community to help build this from scratch. You don't need to join a team or attend meetings.
+
+**Who we're looking for:** software engineers, machine-learning researchers, audio specialists, people experienced with distributed systems or GPUs, and anyone who can help with testing, documentation or project organisation.
+
+**Get started:**
+
+1. Visit the [Community AI Lab GitHub organisation](https://github.com/Community-AI-Lab).
+2. Choose a project: [Contributor Platform](https://github.com/Community-AI-Lab/platform) or [Speech-to-Speech Model](https://github.com/Community-AI-Lab/speech-to-speech).
+3. Open its **Issues** tab, pick something you can help with and comment to say you're interested.
+4. Share your work or findings in the issue or a pull request so others can review it.
+
+You can also suggest a new task if something is missing. See the [roadmap](ROADMAP.md) and [contribution notes](CONTRIBUTING.md) for more detail.
+
+The founding contributor agreement and credit-sharing rules are still being worked out. Don't upload confidential material or data you don't have permission to share.
 
 ## Still to decide
 
