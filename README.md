@@ -1,6 +1,6 @@
 # Community AI Lab — Platform
 
-We're starting from zero. The aim is a simple place where people can help build AI models, have their work checked, and keep a record of what they contributed.
+We're starting from zero. The aim is a simple place where people can help build AI models, have their work checked, and keep a record of what they contributed. [See the milestones and next steps](ROADMAP.md).
 
 **This is one of two projects.** The other is [speech-to-speech](https://github.com/Community-AI-Lab/speech-to-speech), our first model.
 
@@ -21,7 +21,7 @@ A contributor selects a task, submits work, gets it approved and sees a recorded
 
 ## Start here
 
-Look at [open issues](../../issues) and choose a task. Each issue describes what counts as done. See [CONTRIBUTING.md](CONTRIBUTING.md) before sending work.
+Read the [five-milestone roadmap](ROADMAP.md) to see the order of work, or browse [open issues](../../issues) and choose a task. Each issue describes what counts as done. See [CONTRIBUTING.md](CONTRIBUTING.md) before sending work.
 
 ## Still to decide
 
